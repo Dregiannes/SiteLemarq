@@ -8,7 +8,7 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
   font-size: 16px;
-  color: #848484;
+  color: #000000;
   background-color: #f0f0f0;
 }
 body.style-2 {
@@ -219,8 +219,8 @@ input, textarea {
   }
 }
 .background {
-  position: relative;
-  background: linear-gradient(-220deg, #4e6ea6, #b4b4b4);
+  position: relative; 
+  background: linear-gradient(-220deg, #b4b4b4, #5774a7);
   height: auto;
   z-index: 1; /* Fundo com z-index mais baixo */
   overflow: hidden;

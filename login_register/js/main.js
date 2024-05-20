@@ -4,7 +4,7 @@ function createTriangle(size) {
 
 	const borderWidth = `${size}px ${size}px 0 0`;
 	triangle.style.borderWidth = borderWidth;
-	triangle.style.borderColor = `#808080 transparent transparent transparent`; // Cor fixa cinza
+	triangle.style.borderColor = `#b4b4b4 #5774a7 transparent transparent`; 
 
 	return triangle;
 }
@@ -30,7 +30,7 @@ function addTriangles(num) {
 	const triangles = [];
 
 	for (let i = 0; i < num; i++) {
-		const size = Math.floor(Math.random() * 50) + 20; // Triângulos com tamanho entre 20px e 70px
+		const size = Math.floor(Math.random() * 10) + 30; // Triângulos com tamanho entre 20px e 70px
 		let triangle = createTriangle(size);
 
 		let top, left;
